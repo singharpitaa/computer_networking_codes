@@ -3,7 +3,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-// Generate 12-bit Hamming Code
+
 void generateHammingCode(int h[], int data[])
 {
     // Place 8 data bits
