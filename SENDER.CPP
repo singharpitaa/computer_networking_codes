@@ -6,7 +6,6 @@
 
 void generateHammingCode(int h[], int data[])
 {
-    // Place 8 data bits
     h[3]  = data[1];
     h[5]  = data[2];
     h[6]  = data[3];
