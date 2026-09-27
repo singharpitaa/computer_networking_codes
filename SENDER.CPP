@@ -15,7 +15,7 @@ void generateHammingCode(int h[], int data[])
     h[11] = data[7];
     h[12] = data[8];
 
-    // Calculate parity bits
+    
     h[1] = h[3] ^ h[5] ^ h[7] ^ h[9] ^ h[11];
     h[2] = h[3] ^ h[6] ^ h[7] ^ h[10] ^ h[11];
     h[4] = h[5] ^ h[6] ^ h[7] ^ h[12];
