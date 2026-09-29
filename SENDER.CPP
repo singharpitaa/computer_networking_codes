@@ -47,7 +47,6 @@ int main()
     printf("\nCharacter: %c", ch);
     printf("\nASCII Value: %d", ascii);
 
-    // Convert ASCII to 8-bit binary
     for(i = 8; i >= 1; i--)
     {
         data[i] = ascii % 2;
