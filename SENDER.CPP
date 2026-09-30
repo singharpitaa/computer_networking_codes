@@ -58,7 +58,7 @@ int main()
     for(i = 1; i <= 8; i++)
         printf("%d", data[i]);
 
-    // Generate Hamming Code
+  
     generateHammingCode(h, data);
 
     printf("\nGenerated Hamming Code: ");
