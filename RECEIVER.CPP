@@ -99,7 +99,7 @@ int main()
     printf("\nParity Bits (P8 P4 P2 P1): %d%d%d%d",
            p8, p4, p2, p1);
 
-    // Calculate error position
+   
     errorPosition = p1 + (2 * p2) + (4 * p4) + (8 * p8);
 
     // Check for error
