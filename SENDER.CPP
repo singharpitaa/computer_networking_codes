@@ -76,7 +76,7 @@ int main()
     // Create TCP socket
     sock = socket(AF_INET, SOCK_STREAM, 0);
 
-    // Receiver address
+   
     receiver.sin_family = AF_INET;
     receiver.sin_port = htons(9000);
 
